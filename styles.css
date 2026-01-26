@@ -8,7 +8,7 @@
     --text-secondary: #888;
     --text-muted: #555;
     --accent: #fff;
-    --font: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font: 'Inter', 'Noto Sans JP', -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 * {
@@ -78,6 +78,24 @@ a:hover {
 }
 
 .nav-links a:hover {
+    color: var(--text);
+}
+
+.lang-toggle {
+    background: transparent;
+    border: 1px solid var(--border);
+    color: var(--text-secondary);
+    padding: 6px 12px;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: var(--font);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.lang-toggle:hover {
+    border-color: var(--text-muted);
     color: var(--text);
 }
 

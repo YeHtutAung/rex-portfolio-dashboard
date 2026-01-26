@@ -7,7 +7,7 @@
     <title>Ye Htut Aung | Java Developer</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -15,10 +15,11 @@
         <div class="nav-inner">
             <a href="#" class="logo">YHA</a>
             <div class="nav-links">
-                <a href="#about">About</a>
-                <a href="#work">Work</a>
-                <a href="#projects">Projects</a>
-                <a href="#contact">Contact</a>
+                <a href="#about" data-i18n="nav.about">About</a>
+                <a href="#work" data-i18n="nav.work">Work</a>
+                <a href="#projects" data-i18n="nav.projects">Projects</a>
+                <a href="#contact" data-i18n="nav.contact">Contact</a>
+                <button class="lang-toggle" id="langToggle">JP</button>
             </div>
         </div>
     </nav>
@@ -26,10 +27,10 @@
     <main>
         <!-- Hero -->
         <section class="hero">
-            <p class="label">Java Developer</p>
+            <p class="label" data-i18n="hero.label">Java Developer</p>
             <h1>Ye Htut Aung</h1>
-            <p class="subtitle">Senior Java Engineer specializing in API integrations and enterprise system connectivity.</p>
-            <p class="summary">
+            <p class="subtitle" data-i18n="hero.subtitle">Senior Java Engineer specializing in API integrations and enterprise system connectivity.</p>
+            <p class="summary" data-i18n="hero.summary">
                 I build backend systems and integrations that connect enterprise platforms.
                 Over a decade of experience spanning banking, semiconductor manufacturing, and media enterprises in Singapore.
             </p>
@@ -42,18 +43,18 @@
 
         <!-- About -->
         <section id="about" class="section">
-            <h2>About</h2>
+            <h2 data-i18n="about.title">About</h2>
             <div class="content">
-                <p>
+                <p data-i18n="about.p1">
                     I started in Yangon, Myanmar, spending five years building software for banking, logistics,
                     and enterprise clients including Infosys, Hitachi, and Huawei.
                 </p>
-                <p>
+                <p data-i18n="about.p2">
                     In 2019, I moved to Singapore. At Micron, I worked on software connecting semiconductor
                     manufacturing equipment. Now at DW Consulting, I build API integrations for Mediacorp,
                     connecting SAP systems with Google, Docusign, ACRA, and AWS.
                 </p>
-                <p>
+                <p data-i18n="about.p3">
                     I solve the problems that sit between systems. When your enterprise platform needs to
                     talk to a government API, a cloud service, or a legacy database, that's where I work best.
                 </p>
@@ -62,22 +63,22 @@
 
         <!-- Skills -->
         <section class="section">
-            <h2>Skills</h2>
+            <h2 data-i18n="skills.title">Skills</h2>
             <div class="skills-grid">
                 <div class="skill-group">
-                    <h3>Backend</h3>
+                    <h3 data-i18n="skills.backend">Backend</h3>
                     <p>Java, Spring Boot, J2EE, Microservices</p>
                 </div>
                 <div class="skill-group">
-                    <h3>Integration</h3>
+                    <h3 data-i18n="skills.integration">Integration</h3>
                     <p>REST APIs, SAP CPI, OAuth 2.0, JWT</p>
                 </div>
                 <div class="skill-group">
-                    <h3>Databases</h3>
+                    <h3 data-i18n="skills.databases">Databases</h3>
                     <p>Oracle, MySQL, PostgreSQL</p>
                 </div>
                 <div class="skill-group">
-                    <h3>Platforms</h3>
+                    <h3 data-i18n="skills.platforms">Platforms</h3>
                     <p>AWS, SAP Cloud, Tomcat, Linux</p>
                 </div>
             </div>
@@ -85,65 +86,65 @@
 
         <!-- Work -->
         <section id="work" class="section">
-            <h2>Experience</h2>
+            <h2 data-i18n="work.title">Experience</h2>
 
             <article class="job">
                 <div class="job-header">
                     <div>
-                        <h3>Software Developer</h3>
+                        <h3 data-i18n="work.job1.title">Software Developer</h3>
                         <p class="company">DW Consulting / Mediacorp</p>
                     </div>
-                    <span class="period">2020 - Present</span>
+                    <span class="period" data-i18n="work.job1.period">2020 - Present</span>
                 </div>
                 <ul>
-                    <li>API integrations with Google Ads, Docusign, ACRA, and AWS</li>
-                    <li>OAuth 2.0 and JWT authentication implementations</li>
-                    <li>ABAP development for HR and Finance (ALV reports, Adobe Forms)</li>
-                    <li>Full development cycle ownership including SIT</li>
+                    <li data-i18n="work.job1.item1">API integrations with Google Ads, Docusign, ACRA, and AWS</li>
+                    <li data-i18n="work.job1.item2">OAuth 2.0 and JWT authentication implementations</li>
+                    <li data-i18n="work.job1.item3">ABAP development for HR and Finance (ALV reports, Adobe Forms)</li>
+                    <li data-i18n="work.job1.item4">Full development cycle ownership including SIT</li>
                 </ul>
             </article>
 
             <article class="job">
                 <div class="job-header">
                     <div>
-                        <h3>Software Engineer</h3>
+                        <h3 data-i18n="work.job2.title">Software Engineer</h3>
                         <p class="company">Micron Semiconductor</p>
                     </div>
                     <span class="period">2019 - 2020</span>
                 </div>
                 <ul>
-                    <li>Level 2 support for production-critical systems</li>
-                    <li>In-house application ownership and maintenance</li>
-                    <li>Manufacturing software customization</li>
-                    <li>Cross-departmental technical coordination</li>
+                    <li data-i18n="work.job2.item1">Level 2 support for production-critical systems</li>
+                    <li data-i18n="work.job2.item2">In-house application ownership and maintenance</li>
+                    <li data-i18n="work.job2.item3">Manufacturing software customization</li>
+                    <li data-i18n="work.job2.item4">Cross-departmental technical coordination</li>
                 </ul>
             </article>
 
             <article class="job">
                 <div class="job-header">
                     <div>
-                        <h3>Software Developer</h3>
+                        <h3 data-i18n="work.job3.title">Software Developer</h3>
                         <p class="company">ACE Data Systems</p>
                     </div>
                     <span class="period">2013 - 2018</span>
                 </div>
                 <ul>
-                    <li>Finacle Core Banking for AGD Bank (Infosys)</li>
-                    <li>Reporting modules for Development Bank of Japan (Hitachi)</li>
-                    <li>E-Tender and logistics systems for PAN-United and Huawei</li>
-                    <li>POS and ticketing platform development</li>
+                    <li data-i18n="work.job3.item1">Finacle Core Banking for AGD Bank (Infosys)</li>
+                    <li data-i18n="work.job3.item2">Reporting modules for Development Bank of Japan (Hitachi)</li>
+                    <li data-i18n="work.job3.item3">E-Tender and logistics systems for PAN-United and Huawei</li>
+                    <li data-i18n="work.job3.item4">POS and ticketing platform development</li>
                 </ul>
             </article>
         </section>
 
         <!-- Projects -->
         <section id="projects" class="section">
-            <h2>Key Integrations</h2>
+            <h2 data-i18n="projects.title">Key Integrations</h2>
 
             <div class="projects-list">
                 <article class="project">
-                    <h3>Google Ads Integration</h3>
-                    <p>SAP to Google Ads connection for automated campaign management. Implemented OAuth 2.0 flow and secure token management.</p>
+                    <h3 data-i18n="projects.google.title">Google Ads Integration</h3>
+                    <p data-i18n="projects.google.desc">SAP to Google Ads connection for automated campaign management. Implemented OAuth 2.0 flow and secure token management.</p>
                     <div class="tags">
                         <span>OAuth 2.0</span>
                         <span>Google APIs</span>
@@ -152,8 +153,8 @@
                 </article>
 
                 <article class="project">
-                    <h3>Docusign eSignature</h3>
-                    <p>Electronic document signing from SAP workflows. Built JWT Grant authentication for server-to-server API access.</p>
+                    <h3 data-i18n="projects.docusign.title">Docusign eSignature</h3>
+                    <p data-i18n="projects.docusign.desc">Electronic document signing from SAP workflows. Built JWT Grant authentication for server-to-server API access.</p>
                     <div class="tags">
                         <span>JWT</span>
                         <span>Docusign API</span>
@@ -162,8 +163,8 @@
                 </article>
 
                 <article class="project">
-                    <h3>ACRA Integration</h3>
-                    <p>Automated business entity verification with Singapore's corporate regulator. Data transformation between ACRA and SAP structures.</p>
+                    <h3 data-i18n="projects.acra.title">ACRA Integration</h3>
+                    <p data-i18n="projects.acra.desc">Automated business entity verification with Singapore's corporate regulator. Data transformation between ACRA and SAP structures.</p>
                     <div class="tags">
                         <span>REST API</span>
                         <span>Government API</span>
@@ -172,8 +173,8 @@
                 </article>
 
                 <article class="project">
-                    <h3>Finacle Core Banking</h3>
-                    <p>Core banking platform for AGD Bank. Transaction processing and account management module development.</p>
+                    <h3 data-i18n="projects.finacle.title">Finacle Core Banking</h3>
+                    <p data-i18n="projects.finacle.desc">Core banking platform for AGD Bank. Transaction processing and account management module development.</p>
                     <div class="tags">
                         <span>Finacle</span>
                         <span>Banking</span>
@@ -185,27 +186,27 @@
 
         <!-- Values -->
         <section class="section">
-            <h2>How I Work</h2>
+            <h2 data-i18n="values.title">How I Work</h2>
             <div class="values">
                 <div class="value">
-                    <h3>Communication</h3>
-                    <p>Direct communication, thorough documentation. I ask questions early and keep stakeholders informed.</p>
+                    <h3 data-i18n="values.communication.title">Communication</h3>
+                    <p data-i18n="values.communication.desc">Direct communication, thorough documentation. I ask questions early and keep stakeholders informed.</p>
                 </div>
                 <div class="value">
-                    <h3>Problem Solving</h3>
-                    <p>Understand first, then propose. Tests, validated assumptions, incremental delivery over big-bang releases.</p>
+                    <h3 data-i18n="values.problem.title">Problem Solving</h3>
+                    <p data-i18n="values.problem.desc">Understand first, then propose. Tests, validated assumptions, incremental delivery over big-bang releases.</p>
                 </div>
                 <div class="value">
-                    <h3>Production Mindset</h3>
-                    <p>Security from the start, edge cases handled, maintainable code. Systems that run reliably, not just pass demos.</p>
+                    <h3 data-i18n="values.production.title">Production Mindset</h3>
+                    <p data-i18n="values.production.desc">Security from the start, edge cases handled, maintainable code. Systems that run reliably, not just pass demos.</p>
                 </div>
             </div>
         </section>
 
         <!-- Contact -->
         <section id="contact" class="section contact">
-            <h2>Contact</h2>
-            <p>Open to backend engineering, API development, and enterprise integration roles.</p>
+            <h2 data-i18n="contact.title">Contact</h2>
+            <p data-i18n="contact.intro">Open to backend engineering, API development, and enterprise integration roles.</p>
             <div class="contact-links">
                 <a href="mailto:yehtutaung.yanyan@gmail.com">yehtutaung.yanyan@gmail.com</a>
                 <a href="tel:+6591644736">+65 9164 4736</a>
@@ -217,5 +218,7 @@
     <footer>
         <p>Ye Htut Aung</p>
     </footer>
+
+    <script src="i18n.js"></script>
 </body>
 </html>
