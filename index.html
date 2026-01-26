@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ye Htut Aung - Senior Java Engineer specializing in API integrations and enterprise system connectivity">
+    <title>Ye Htut Aung | Java Developer & Integration Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">YHA</a>
+            <ul class="nav-menu">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact" class="nav-cta">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <p class="hero-greeting">Hello, I'm</p>
+            <h1 class="hero-title">Ye Htut Aung</h1>
+            <p class="hero-headline">Senior Java Engineer specializing in API integrations and enterprise system connectivity.</p>
+            <p class="hero-summary">
+                I build the backend systems and integrations that connect enterprise platforms to the services they depend on.
+                With over a decade of experience spanning banking systems, semiconductor manufacturing, and media enterprises,
+                I deliver secure, reliable APIs that work at scale.
+            </p>
+            <div class="hero-cta">
+                <a href="#contact" class="btn btn-primary">Get in Touch</a>
+                <a href="#projects" class="btn btn-secondary">View Projects</a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="code-block">
+                <div class="code-header">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                </div>
+                <pre><code><span class="keyword">public class</span> <span class="class">Engineer</span> {
+    <span class="keyword">private</span> String focus = <span class="string">"APIs"</span>;
+    <span class="keyword">private</span> String[] stack = {
+        <span class="string">"Java"</span>, <span class="string">"Spring"</span>, <span class="string">"SAP"</span>
+    };
+
+    <span class="keyword">public</span> Solution <span class="method">solve</span>(Problem p) {
+        <span class="keyword">return</span> elegant(p);
+    }
+}</code></pre>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I started my engineering career in Yangon, Myanmar, where I spent five years building software
+                        for banking, logistics, and enterprise clients including Infosys, Hitachi, and Huawei. That
+                        foundation taught me how critical systems work and why reliability matters.
+                    </p>
+                    <p>
+                        In 2019, I moved to Singapore and shifted focus toward integration engineering. At Micron,
+                        I worked on software connecting semiconductor manufacturing equipment. Now at DW Consulting,
+                        I build API integrations for Mediacorp, connecting SAP systems with Google, Docusign, ACRA, and AWS.
+                    </p>
+                    <p>
+                        I solve the problems that sit between systems. When your enterprise platform needs to talk to
+                        a government API, a cloud service, or a legacy database, that's where I work best. I write clean,
+                        tested code and communicate clearly with stakeholders across departments.
+                    </p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <span class="stat-number">10+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">15+</span>
+                        <span class="stat-label">Enterprise Projects</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">5+</span>
+                        <span class="stat-label">API Integrations</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills">
+        <div class="container">
+            <h2 class="section-title">Core Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                    </div>
+                    <h3>Backend Development</h3>
+                    <ul>
+                        <li>Core Java, J2EE</li>
+                        <li>Spring Framework, Spring Boot</li>
+                        <li>Microservices Architecture</li>
+                        <li>Object-Oriented Design</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 20V10"></path><path d="M12 20V4"></path><path d="M6 20v-6"></path></svg>
+                    </div>
+                    <h3>API & Integration</h3>
+                    <ul>
+                        <li>RESTful API Development</li>
+                        <li>SAP Cloud Platform Integration</li>
+                        <li>Google, Docusign, ACRA APIs</li>
+                        <li>Third-party API Consumption</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+                    </div>
+                    <h3>Auth & Security</h3>
+                    <ul>
+                        <li>OAuth 2.0 Implementation</li>
+                        <li>JWT Authentication</li>
+                        <li>Google Credentials API</li>
+                        <li>Secure Token Management</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg>
+                    </div>
+                    <h3>Databases</h3>
+                    <ul>
+                        <li>Oracle Database</li>
+                        <li>MySQL</li>
+                        <li>PostgreSQL</li>
+                        <li>Query Optimization</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+                    </div>
+                    <h3>Platforms & Servers</h3>
+                    <ul>
+                        <li>Apache Tomcat, JBoss</li>
+                        <li>AWS</li>
+                        <li>Linux Environments</li>
+                        <li>SAP Cloud Platform</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                    </div>
+                    <h3>Working Style</h3>
+                    <ul>
+                        <li>Cross-team Collaboration</li>
+                        <li>Technical Documentation</li>
+                        <li>Full Testing Lifecycle</li>
+                        <li>Stakeholder Communication</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Stack Section -->
+    <section class="section tech-stack">
+        <div class="container">
+            <h2 class="section-title">Tech Stack</h2>
+            <div class="stack-grid">
+                <div class="stack-item">
+                    <span class="stack-label">Languages</span>
+                    <div class="stack-tags">
+                        <span class="tag">Java</span>
+                        <span class="tag">ABAP</span>
+                        <span class="tag">C#</span>
+                        <span class="tag">SQL</span>
+                    </div>
+                </div>
+                <div class="stack-item">
+                    <span class="stack-label">Frameworks</span>
+                    <div class="stack-tags">
+                        <span class="tag">Spring Framework</span>
+                        <span class="tag">Spring Boot</span>
+                        <span class="tag">J2EE</span>
+                        <span class="tag">ASP.NET</span>
+                    </div>
+                </div>
+                <div class="stack-item">
+                    <span class="stack-label">Databases</span>
+                    <div class="stack-tags">
+                        <span class="tag">Oracle</span>
+                        <span class="tag">MySQL</span>
+                        <span class="tag">PostgreSQL</span>
+                    </div>
+                </div>
+                <div class="stack-item">
+                    <span class="stack-label">Auth & Security</span>
+                    <div class="stack-tags">
+                        <span class="tag">OAuth 2.0</span>
+                        <span class="tag">JWT</span>
+                        <span class="tag">Google Credentials API</span>
+                    </div>
+                </div>
+                <div class="stack-item">
+                    <span class="stack-label">Servers & Platforms</span>
+                    <div class="stack-tags">
+                        <span class="tag">Tomcat</span>
+                        <span class="tag">JBoss</span>
+                        <span class="tag">SAP Cloud Platform</span>
+                        <span class="tag">AWS</span>
+                        <span class="tag">Linux</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section experience">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Software Developer</h3>
+                            <span class="company">DW Consulting (SAP Partner for Mediacorp)</span>
+                            <span class="period">March 2020 - Present</span>
+                            <span class="location">Singapore</span>
+                        </div>
+                        <p class="timeline-intro">Enterprise integration specialist connecting SAP systems with external platforms for one of Singapore's largest media companies.</p>
+                        <ul class="timeline-highlights">
+                            <li>Designed and implemented API integrations with Google Ads, Docusign, ACRA, and AWS</li>
+                            <li>Built secure authentication flows using OAuth 2.0 for Google services and JWT grants for Docusign</li>
+                            <li>Developed ABAP solutions including ALV reports and Adobe Forms for HR and Finance departments</li>
+                            <li>Owned the full development cycle from implementation through unit testing and system integration testing</li>
+                            <li>Collaborated with SAP consultants and business stakeholders to translate requirements into technical solutions</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Software Engineer</h3>
+                            <span class="company">Micron Semiconductor</span>
+                            <span class="period">February 2019 - February 2020</span>
+                            <span class="location">Singapore</span>
+                        </div>
+                        <p class="timeline-intro">Software engineer supporting manufacturing systems at a global semiconductor leader.</p>
+                        <ul class="timeline-highlights">
+                            <li>Provided Level 2 technical support, diagnosing and resolving production-critical issues</li>
+                            <li>Owned and maintained in-house applications connecting to semiconductor manufacturing equipment</li>
+                            <li>Customized and extended features in manufacturing software systems</li>
+                            <li>Participated in cross-departmental coordination meetings, bridging communication between engineering teams</li>
+                            <li>Gained firsthand experience with enterprise-grade support processes and SLA-driven environments</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Software Developer</h3>
+                            <span class="company">ACE Data Systems</span>
+                            <span class="period">June 2013 - December 2018</span>
+                            <span class="location">Yangon, Myanmar</span>
+                        </div>
+                        <p class="timeline-intro">Full-stack developer delivering solutions for banking, logistics, and enterprise clients across multiple industries.</p>
+                        <ul class="timeline-highlights">
+                            <li>Implemented Finacle Core Banking solutions for AGD Bank as part of an Infosys engagement</li>
+                            <li>Built reporting modules and development support tools for Development Bank of Japan through Hitachi</li>
+                            <li>Developed e-Tender and e-Change Request systems for PAN-United</li>
+                            <li>Created logistics mapping and internal operations applications for Huawei</li>
+                            <li>Delivered POS systems, ticketing platforms, and version control management tools</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+        <div class="container">
+            <h2 class="section-title">Key Integrations</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+                        </div>
+                        <h3>Google Ads Integration</h3>
+                    </div>
+                    <p class="project-desc">Connects SAP systems with Google Ads for automated campaign management and reporting.</p>
+                    <div class="project-problem">
+                        <strong>Problem Solved:</strong> Eliminated manual data transfer between advertising platforms and enterprise systems, enabling real-time campaign insights.
+                    </div>
+                    <div class="project-contribution">
+                        <strong>My Role:</strong> Implemented OAuth 2.0 authentication flow for Google APIs, built the integration layer handling credentials and API calls, and ensured secure token management.
+                    </div>
+                    <div class="project-tags">
+                        <span class="tag">OAuth 2.0</span>
+                        <span class="tag">Google APIs</span>
+                        <span class="tag">SAP CPI</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                        </div>
+                        <h3>Docusign eSignature</h3>
+                    </div>
+                    <p class="project-desc">Enables electronic document signing workflows directly from SAP business processes.</p>
+                    <div class="project-problem">
+                        <strong>Problem Solved:</strong> Removed paper-based bottlenecks in contract and approval workflows, accelerating business transactions.
+                    </div>
+                    <div class="project-contribution">
+                        <strong>My Role:</strong> Implemented JWT Grant authentication for server-to-server Docusign API access, built the integration endpoints, and handled envelope creation and status tracking.
+                    </div>
+                    <div class="project-tags">
+                        <span class="tag">JWT</span>
+                        <span class="tag">Docusign API</span>
+                        <span class="tag">SAP CPI</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+                        </div>
+                        <h3>ACRA Integration</h3>
+                    </div>
+                    <p class="project-desc">Connects enterprise systems with Singapore's Accounting and Corporate Regulatory Authority for business entity verification.</p>
+                    <div class="project-problem">
+                        <strong>Problem Solved:</strong> Automated compliance checks and corporate data validation that previously required manual lookups.
+                    </div>
+                    <div class="project-contribution">
+                        <strong>My Role:</strong> Developed the API integration layer, handled authentication requirements, and built data transformation logic between ACRA responses and SAP structures.
+                    </div>
+                    <div class="project-tags">
+                        <span class="tag">REST API</span>
+                        <span class="tag">Government API</span>
+                        <span class="tag">SAP CPI</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect><rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect><line x1="6" y1="6" x2="6.01" y2="6"></line><line x1="6" y1="18" x2="6.01" y2="18"></line></svg>
+                        </div>
+                        <h3>SAP Cloud Platform Integration</h3>
+                    </div>
+                    <p class="project-desc">Middleware layer connecting SAP systems with external services including Google, AWS, and government APIs.</p>
+                    <div class="project-problem">
+                        <strong>Problem Solved:</strong> Created a unified integration architecture allowing SAP to communicate with diverse external platforms through standardized interfaces.
+                    </div>
+                    <div class="project-contribution">
+                        <strong>My Role:</strong> Designed and implemented integration flows, managed API mappings, and ensured reliable message handling between systems.
+                    </div>
+                    <div class="project-tags">
+                        <span class="tag">SAP CPI</span>
+                        <span class="tag">Enterprise Integration</span>
+                        <span class="tag">API Gateway</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+                        </div>
+                        <h3>Finacle Core Banking</h3>
+                    </div>
+                    <p class="project-desc">Core banking platform handling accounts, transactions, and banking operations for AGD Bank.</p>
+                    <div class="project-problem">
+                        <strong>Problem Solved:</strong> Provided a modern banking infrastructure for AGD Bank's retail and corporate banking operations.
+                    </div>
+                    <div class="project-contribution">
+                        <strong>My Role:</strong> Developed customizations and integrations as part of the Infosys implementation team, working on transaction processing and account management modules.
+                    </div>
+                    <div class="project-tags">
+                        <span class="tag">Finacle</span>
+                        <span class="tag">Core Banking</span>
+                        <span class="tag">Java</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Values Section -->
+    <section class="section values">
+        <div class="container">
+            <h2 class="section-title">How I Work</h2>
+            <div class="values-grid">
+                <div class="value-card">
+                    <h3>Team Collaboration</h3>
+                    <p>I communicate directly and document thoroughly. I've worked across departments at semiconductor plants, between SAP consultants and business users, and with offshore development teams. I ask questions early and keep stakeholders informed.</p>
+                </div>
+                <div class="value-card">
+                    <h3>Problem Solving</h3>
+                    <p>I start by understanding the existing system before proposing changes. I write tests, validate assumptions, and prefer incremental delivery over big-bang releases. When debugging, I trace issues systematically rather than guessing.</p>
+                </div>
+                <div class="value-card">
+                    <h3>Enterprise Mindset</h3>
+                    <p>I build for production. That means considering security from the start, handling edge cases, writing maintainable code, and respecting that downtime costs money. Systems I build need to run reliably, not just pass a demo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="section-title">Let's Connect</h2>
+            <div class="contact-content">
+                <p class="contact-intro">
+                    I am open to backend engineering, API development, and enterprise integration roles.
+                    If your team builds systems that need to connect, scale, or integrate with external platforms,
+                    I would be glad to discuss how I can contribute.
+                </p>
+                <div class="contact-methods">
+                    <a href="mailto:yehtutaung.yanyan@gmail.com" class="contact-card">
+                        <div class="contact-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                        </div>
+                        <span class="contact-label">Email</span>
+                        <span class="contact-value">yehtutaung.yanyan@gmail.com</span>
+                    </a>
+                    <a href="tel:+6591644736" class="contact-card">
+                        <div class="contact-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                        </div>
+                        <span class="contact-label">Phone</span>
+                        <span class="contact-value">+65 9164 4736</span>
+                    </a>
+                    <a href="https://linkedin.com/in/yehtut-aung-b8594b167" target="_blank" rel="noopener noreferrer" class="contact-card">
+                        <div class="contact-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                        </div>
+                        <span class="contact-label">LinkedIn</span>
+                        <span class="contact-value">Connect with me</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Ye Htut Aung. Built with purpose.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const navToggle = document.querySelector('.nav-toggle');
+        const navMenu = document.querySelector('.nav-menu');
+
+        navToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+            navToggle.classList.toggle('active');
+        });
+
+        // Close menu when clicking a link
+        document.querySelectorAll('.nav-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('active');
+                navToggle.classList.remove('active');
+            });
+        });
+
+        // Navbar background on scroll
+        window.addEventListener('scroll', () => {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
