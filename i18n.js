@@ -8,8 +8,13 @@ const translations = {
         },
         hero: {
             label: "Java Developer",
+            available: "Available for opportunities",
             subtitle: "Senior Java Engineer specializing in API integrations and enterprise system connectivity.",
-            summary: "I build backend systems and integrations that connect enterprise platforms. Over a decade of experience spanning banking, semiconductor manufacturing, and media enterprises in Singapore."
+            summary: "I build backend systems and integrations that connect enterprise platforms. Over a decade of experience spanning banking, semiconductor manufacturing, and media enterprises in Singapore.",
+            contact: "Get in Touch",
+            years: "Years Experience",
+            projects: "Projects Delivered",
+            integrations: "API Integrations"
         },
         about: {
             title: "About",
@@ -85,7 +90,9 @@ const translations = {
         },
         contact: {
             title: "Contact",
-            intro: "Open to backend engineering, API development, and enterprise integration roles."
+            intro: "Open to backend engineering, API development, and enterprise integration roles.",
+            phone: "Phone",
+            connect: "Connect with me"
         }
     },
     ja: {
@@ -97,8 +104,13 @@ const translations = {
         },
         hero: {
             label: "Javaデベロッパー",
+            available: "お仕事募集中",
             subtitle: "API連携とエンタープライズシステム接続を専門とするシニアJavaエンジニア",
-            summary: "エンタープライズプラットフォームを接続するバックエンドシステムと連携機能を構築しています。銀行、半導体製造、メディア企業での10年以上の経験があります。"
+            summary: "エンタープライズプラットフォームを接続するバックエンドシステムと連携機能を構築しています。銀行、半導体製造、メディア企業での10年以上の経験があります。",
+            contact: "お問い合わせ",
+            years: "年の経験",
+            projects: "プロジェクト実績",
+            integrations: "API連携実績"
         },
         about: {
             title: "自己紹介",
@@ -174,7 +186,9 @@ const translations = {
         },
         contact: {
             title: "連絡先",
-            intro: "バックエンドエンジニアリング、API開発、エンタープライズ連携のポジションを探しています。"
+            intro: "バックエンドエンジニアリング、API開発、エンタープライズ連携のポジションを探しています。",
+            phone: "電話",
+            connect: "つながる"
         }
     }
 };
