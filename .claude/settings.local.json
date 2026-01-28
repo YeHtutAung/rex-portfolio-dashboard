@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl:*)",
+      "Bash(git -C /home/rex/claude-workspace/rex-portfolio-dashboard status)",
+      "Bash(git -C /home/rex/claude-workspace/rex-portfolio-dashboard log --oneline -5)",
+      "Bash(git -C /home/rex/claude-workspace/rex-portfolio-dashboard add index.html styles.css)",
+      "Bash(git -C /home/rex/claude-workspace/rex-portfolio-dashboard commit -m \"$\\(cat <<''EOF''\nAdd portfolio website for Ye Htut Aung\n\nCreate a modern, responsive single-page portfolio featuring:\n- Hero section with animated code block\n- About, skills, and tech stack sections\n- Timeline-based experience history\n- Project showcase cards for key integrations\n- Contact section with email, phone, and LinkedIn\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git -C /home/rex/claude-workspace/rex-portfolio-dashboard config user.email \"yehtutaung.yanyan@gmail.com\")",
+      "Bash(git -C /home/rex/claude-workspace/rex-portfolio-dashboard config user.name \"Ye Htut Aung\")",
+      "Bash(git -C /home/rex/claude-workspace/rex-portfolio-dashboard remote -v)",
+      "Bash(gh auth status:*)",
+      "Bash(~/.local/bin/gh --version)",
+      "Bash(gh repo create:*)"
+    ]
+  }
+}
