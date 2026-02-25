@@ -18,9 +18,9 @@ const translations = {
         },
         about: {
             title: "About",
-            p1: "I started in Yangon, Myanmar, spending five years building software for banking, logistics, and enterprise clients including Infosys, Hitachi, and Huawei.",
-            p2: "In 2019, I moved to Singapore. At Micron, I worked on software connecting semiconductor manufacturing equipment. Now at DW Consulting, I build API integrations for Mediacorp, connecting SAP systems with Google, Docusign, ACRA, and AWS.",
-            p3: "I solve the problems that sit between systems. When your enterprise platform needs to talk to a government API, a cloud service, or a legacy database, that's where I work best."
+            p1: "Singapore-based Full Stack Developer building scalable web applications and enterprise integrations.",
+            p2: "Experienced in backend architecture, API design, cloud deployment, and connecting complex systems across SAP, government services, and modern cloud platforms.",
+            p3: "I specialize in solving the problems between systems—turning fragmented platforms into secure, reliable, and production-ready solutions."
         },
         skills: {
             title: "Skills",
