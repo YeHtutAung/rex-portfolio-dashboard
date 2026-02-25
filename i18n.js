@@ -32,21 +32,28 @@ const translations = {
         work: {
             title: "Experience",
             job1: {
+                title: "Senior Full Stack Developer",
+                period: "2023 - Present",
+                item1: "Build scalable web applications and enterprise integration solutions",
+                item2: "Design backend architecture and secure API services",
+                item3: "Lead cloud deployment and production release workflows",
+                item4: "Deliver end-to-end development from requirements to support"
+            },
+            job2: {
                 title: "Software Developer",
-                period: "2020 - Present",
                 item1: "API integrations with Google Ads, Docusign, ACRA, and AWS",
                 item2: "OAuth 2.0 and JWT authentication implementations",
                 item3: "ABAP development for HR and Finance (ALV reports, Adobe Forms)",
                 item4: "Full development cycle ownership including SIT"
             },
-            job2: {
+            job3: {
                 title: "Software Engineer",
                 item1: "Level 2 support for production-critical systems",
                 item2: "In-house application ownership and maintenance",
                 item3: "Manufacturing software customization",
                 item4: "Cross-departmental technical coordination"
             },
-            job3: {
+            job4: {
                 title: "Software Developer",
                 item1: "Finacle Core Banking for AGD Bank (Infosys)",
                 item2: "Reporting modules for Development Bank of Japan (Hitachi)",
@@ -128,21 +135,28 @@ const translations = {
         work: {
             title: "職務経歴",
             job1: {
+                title: "シニアフルスタック開発者",
+                period: "2023年 - 現在",
+                item1: "スケーラブルなWebアプリケーションとエンタープライズ連携の構築",
+                item2: "バックエンド設計とセキュアなAPIサービスの設計",
+                item3: "クラウド展開と本番リリース運用のリード",
+                item4: "要件定義から運用支援までのエンドツーエンド開発"
+            },
+            job2: {
                 title: "ソフトウェアデベロッパー",
-                period: "2020年 - 現在",
                 item1: "Google Ads、Docusign、ACRA、AWSとのAPI連携",
                 item2: "OAuth 2.0とJWT認証の実装",
                 item3: "人事・財務向けABAP開発（ALVレポート、Adobe Forms）",
                 item4: "SITを含む開発サイクル全体の管理"
             },
-            job2: {
+            job3: {
                 title: "ソフトウェアエンジニア",
                 item1: "本番クリティカルシステムのレベル2サポート",
                 item2: "社内アプリケーションの運用・保守",
                 item3: "製造ソフトウェアのカスタマイズ",
                 item4: "部門間の技術調整"
             },
-            job3: {
+            job4: {
                 title: "ソフトウェアデベロッパー",
                 item1: "AGD Bank向けFinacleコアバンキング（Infosys）",
                 item2: "日本政策投資銀行向けレポートモジュール（日立）",
