@@ -7,9 +7,9 @@ const translations = {
             contact: "Contact"
         },
         hero: {
-            label: "Java Developer",
+            label: "Senior Full-Stack Developer",
             available: "Available for opportunities",
-            subtitle: "Senior Java Engineer specializing in API integrations and enterprise system connectivity.",
+            subtitle: "Senior Full-Stack Developer specializing in API integrations and enterprise system connectivity.",
             summary: "I build backend systems and integrations that connect enterprise platforms. Over a decade of experience spanning banking, semiconductor manufacturing, and media enterprises in Singapore.",
             contact: "Get in Touch",
             years: "Years Experience",
@@ -110,9 +110,9 @@ const translations = {
             contact: "連絡先"
         },
         hero: {
-            label: "Javaデベロッパー",
+            label: "シニアフルスタックデベロッパー",
             available: "お仕事募集中",
-            subtitle: "API連携とエンタープライズシステム接続を専門とするシニアJavaエンジニア",
+            subtitle: "API連携とエンタープライズシステム接続を専門とするシニアフルスタックデベロッパー。",
             summary: "エンタープライズプラットフォームを接続するバックエンドシステムと連携機能を構築しています。銀行、半導体製造、メディア企業での10年以上の経験があります。",
             contact: "お問い合わせ",
             years: "年の経験",
