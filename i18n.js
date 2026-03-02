@@ -7,7 +7,7 @@ const translations = {
             contact: "Contact"
         },
         hero: {
-            label: "Senior Full-Stack Developer",
+            label: "Technical Engineering Lead | Cross-Team Delivery & System Design",
             available: "Available for opportunities",
             subtitle: "Senior Full-Stack Developer specializing in API integrations and enterprise system connectivity.",
             summary: "I build backend systems and integrations that connect enterprise platforms. Over a decade of experience spanning banking, semiconductor manufacturing, and media enterprises in Singapore.",
@@ -110,7 +110,7 @@ const translations = {
             contact: "連絡先"
         },
         hero: {
-            label: "シニアフルスタックデベロッパー",
+            label: "テクニカルエンジニアリングリード｜クロスチームデリバリー＆システム設計",
             available: "お仕事募集中",
             subtitle: "API連携とエンタープライズシステム接続を専門とするシニアフルスタックデベロッパー。",
             summary: "エンタープライズプラットフォームを接続するバックエンドシステムと連携機能を構築しています。銀行、半導体製造、メディア企業での10年以上の経験があります。",
