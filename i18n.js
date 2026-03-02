@@ -84,15 +84,19 @@ const translations = {
             title: "How I Work",
             communication: {
                 title: "Communication",
-                desc: "Direct communication, thorough documentation. I ask questions early and keep stakeholders informed."
+                desc: "Foster direct and transparent communication across engineering teams and with PMO/product stakeholders. Encourage early questions, thorough documentation, and keeping all teams aligned on technical direction and decisions."
             },
             problem: {
                 title: "Problem Solving",
-                desc: "Understand first, then propose. Tests, validated assumptions, incremental delivery over big-bang releases."
+                desc: "Guide teams to analyze problems before proposing solutions, validate assumptions, and deliver incrementally. Ensure solutions are technically sound and maintainable, balancing quality with timely delivery."
             },
             production: {
                 title: "Production Mindset",
-                desc: "Security from the start, edge cases handled, maintainable code. Systems that run reliably, not just pass demos."
+                desc: "Drive teams to build secure, reliable, and maintainable systems. Emphasize edge-case handling, production readiness, and operational excellence across backend, frontend, and integrations."
+            },
+            leadership: {
+                title: "Leadership & Alignment",
+                desc: "Mentor senior and junior developers, providing guidance and code reviews. Define architectural standards and engineering best practices. Align multiple teams with cross-functional stakeholders, ensuring consistent and scalable solutions."
             }
         },
         contact: {
@@ -187,15 +191,19 @@ const translations = {
             title: "仕事の進め方",
             communication: {
                 title: "コミュニケーション",
-                desc: "直接的なコミュニケーションと詳細なドキュメント作成。早期に質問し、関係者に常に情報を共有します。"
+                desc: "エンジニアリングチーム内およびPMO／プロダクトのステークホルダーと、透明性の高いコミュニケーションを促進します。早期の質問、十分なドキュメント、技術方針と意思決定の共有を徹底します。"
             },
             problem: {
                 title: "問題解決",
-                desc: "まず理解し、それから提案。テスト、仮説検証、ビッグバンリリースより段階的なデリバリーを重視。"
+                desc: "課題を分析してから解決策を提案することを徹底し、仮説を検証しながら段階的にデリバリーします。品質とスピードのバランスを取りつつ、技術的に健全で保守性の高い解決策を担保します。"
             },
             production: {
                 title: "本番環境への意識",
-                desc: "セキュリティを最初から考慮し、エッジケースに対応し、保守性の高いコードを書きます。デモを通すだけでなく、確実に動作するシステムを構築します。"
+                desc: "セキュアで信頼性が高く、保守性のあるシステムを構築するようチームを牽引します。エッジケース対応、本番運用の準備、バックエンド・フロントエンド・連携を含む運用卓越性を重視します。"
+            },
+            leadership: {
+                title: "リーダーシップ＆アライメント",
+                desc: "シニア／ジュニア開発者をメンタリングし、ガイダンスとコードレビューを提供します。アーキテクチャ標準とエンジニアリングのベストプラクティスを定義し、クロスファンクショナルな関係者と複数チームを整合させ、拡張性のある一貫したソリューションを実現します。"
             }
         },
         contact: {
