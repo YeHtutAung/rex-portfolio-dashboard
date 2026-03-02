@@ -97,7 +97,7 @@ const translations = {
         },
         contact: {
             title: "Contact",
-            intro: "Open to backend engineering, API development, and enterprise integration roles.",
+            intro: "Open to Tech Engineer Lead / Engineering Lead opportunities. Experienced in team leadership, architecture, and enterprise integrations, collaborating closely with PMO and product teams to deliver scalable systems.",
             phone: "Phone",
             connect: "Connect with me"
         }
@@ -200,7 +200,7 @@ const translations = {
         },
         contact: {
             title: "連絡先",
-            intro: "バックエンドエンジニアリング、API開発、エンタープライズ連携のポジションを探しています。",
+            intro: "テックエンジニアリングリード／エンジニアリングリードの機会を探しています。チームリーダーシップ、アーキテクチャ、エンタープライズ連携の経験があり、PMOやプロダクトチームと密に連携してスケーラブルなシステムを提供します。",
             phone: "電話",
             connect: "つながる"
         }
