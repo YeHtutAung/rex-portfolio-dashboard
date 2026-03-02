@@ -18,9 +18,9 @@ const translations = {
         },
         about: {
             title: "About",
-            p1: "Singapore-based Full Stack Developer building scalable web applications and enterprise integrations.",
-            p2: "Experienced in backend architecture, API design, cloud deployment, and connecting complex systems across SAP, government services, and modern cloud platforms.",
-            p3: "I specialize in solving the problems between systems—turning fragmented platforms into secure, reliable, and production-ready solutions."
+            p1: "Singapore-based Technical Engineering Lead experienced in architecting scalable backend systems and guiding engineering teams across complex enterprise environments.",
+            p2: "With a background in both software engineering and project leadership, I bridge technical execution with delivery alignment—mentoring developers, establishing engineering standards, and ensuring system-wide architectural coherence.",
+            p3: "I specialize in transforming fragmented platforms into secure, integrated, and production-grade solutions across enterprise and cloud ecosystems."
         },
         skills: {
             title: "Skills",
@@ -121,9 +121,9 @@ const translations = {
         },
         about: {
             title: "自己紹介",
-            p1: "シンガポール拠点のフルスタック開発者として、スケーラブルなWebアプリケーションとエンタープライズ連携を構築しています。",
-            p2: "バックエンド設計、API設計、クラウド展開に加え、SAP・政府系サービス・最新クラウド基盤をまたぐ複雑なシステム接続に対応しています。",
-            p3: "私はシステム間にある課題を解決することを専門とし、分断されたプラットフォームを、安全で信頼性が高く、本番運用可能なソリューションへ変えます。"
+            p1: "シンガポール拠点のテクニカルエンジニアリングリードとして、スケーラブルなバックエンドシステムの設計と、複雑なエンタープライズ環境でのチーム牽引に携わっています。",
+            p2: "ソフトウェアエンジニアリングとプロジェクトリーダーシップの両面の経験を活かし、技術実行とデリバリーの整合を橋渡しします。開発者の育成、エンジニアリング標準の整備、全体アーキテクチャの一貫性確保に注力しています。",
+            p3: "分断されたプラットフォームを、安全で統合された本番運用レベルのソリューションへと変革し、エンタープライズとクラウドのエコシステム全体で価値を提供します。"
         },
         skills: {
             title: "スキル",
