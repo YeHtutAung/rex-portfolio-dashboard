@@ -453,6 +453,11 @@ main {
 
 .country-flag {
     margin-left: 6px;
+    width: 16px;
+    height: 12px;
+    border-radius: 2px;
+    vertical-align: -1px;
+    object-fit: cover;
 }
 
 .job ul {
