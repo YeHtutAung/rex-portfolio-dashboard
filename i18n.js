@@ -73,9 +73,16 @@ const translations = {
                 title: "Senior Full Stack Developer",
                 period: "2023 - Present",
                 item1: "Build scalable web applications and enterprise integration solutions",
-                item2: "Design backend architecture and secure API services",
-                item3: "Lead cloud deployment and production release workflows",
-                item4: "Deliver end-to-end development from requirements to support"
+                item2: "Design backend architecture and develop secure API services",
+                item3: "Lead cloud deployment pipelines and production release workflows",
+                item4: "Deliver end-to-end development from requirements analysis to post-deployment support",
+                item5: "Key Solutions & Contributions",
+                item6: "WILAS WiFi Captive Portal Solution - Developed new features, provided advanced technical support, worked as L3 support engineer, and handled end-to-end deployment across multiple environments.",
+                item7: "WILAS Location-Based Analytics Solution - Implemented feature enhancements and delivered L3 technical support for enterprise deployments.",
+                item8: "WILAS IoT Solution - Provided L3 technical troubleshooting and system support for IoT platform operations.",
+                item9: "WILAS Video AI Solution - Delivered L3 technical support for AI video analytics platform.",
+                item10: "Regional Operations",
+                item11: "Supported deployments and technical operations across Thailand, Cambodia, Philippines, and China, collaborating with multinational teams and ensuring stable system performance."
             },
             job2: {
                 title: "Software Developer",
@@ -272,7 +279,14 @@ const translations = {
                 item1: "スケーラブルなWebアプリケーションとエンタープライズ連携の構築",
                 item2: "バックエンド設計とセキュアなAPIサービスの設計",
                 item3: "クラウド展開と本番リリース運用のリード",
-                item4: "要件定義から運用支援までのエンドツーエンド開発"
+                item4: "要件定義から運用支援までのエンドツーエンド開発",
+                item5: "主な実績",
+                item6: "WILAS WiFi Captive Portal - 新機能開発、L3技術支援、複数環境への展開を担当。",
+                item7: "WILAS Location-Based Analytics - 機能強化の実装とL3技術サポートを提供。",
+                item8: "WILAS IoT - プラットフォーム運用のL3トラブル対応とシステム支援を実施。",
+                item9: "WILAS Video AI - AI映像分析基盤のL3技術サポートを担当。",
+                item10: "地域オペレーション",
+                item11: "タイ、カンボジア、フィリピン、中国で導入と技術運用を支援し、安定稼働を実現。"
             },
             job2: {
                 title: "ソフトウェアデベロッパー",
