@@ -140,6 +140,34 @@ const translations = {
                 title: "Finacle Core Banking",
                 desc: "Core banking platform for AGD Bank. Transaction processing and account management module development."
             },
+            kuunyi: {
+                title: "KuuNyi - Multi-Tenant SaaS Enrollment Platform",
+                desc: "Production-grade SaaS platform for language schools, events, and training centers to manage enrollments, payments, and student communications under isolated tenant subdomains.",
+                isolation: {
+                    title: "Multi-Tenant Isolation",
+                    desc: "Subdomain routing with PostgreSQL Row-Level Security and tenant context propagation from Host headers."
+                },
+                payments: {
+                    title: "Three-Tier Payments",
+                    desc: "ABank MMQR, MyanMyanPay, and Stripe integrations with HMAC webhooks and automatic enrollment status transitions."
+                },
+                automation: {
+                    title: "Chatbot Automation",
+                    desc: "Telegram per-tenant webhook routing, account linking, channel invites, bulk announcements, auto-kick flows, and Messenger handoff."
+                },
+                ai: {
+                    title: "AI-Orchestrated Engineering",
+                    desc: "Built across 10+ sprints with Claude Code assisting schema design, API scaffolding, debugging, and iterative delivery."
+                },
+                tags: {
+                    next: "Next.js 14",
+                    supabase: "Supabase RLS",
+                    payments: "Stripe / MMQR",
+                    telegram: "Telegram Bot API",
+                    vercel: "Vercel"
+                },
+                live: "Live Platform"
+            },
             fe: {
                 title: "FE Certification Practice Platform (AI-Orchestrated System Architecture)",
                 desc: "Solution architecture initiative where system boundaries, delivery constraints, and governance remain human-led while implementation throughput is accelerated with AI as a senior engineering partner.",
@@ -390,6 +418,35 @@ translations.ja.projects.fe = {
         postgres: "PostgreSQL",
         rbac: "RBAC",
         worker: "\u975e\u540c\u671f\u30ef\u30fc\u30ab\u30fc"
+    },
+    live: "\u30e9\u30a4\u30d6\u30b5\u30a4\u30c8"
+};
+
+translations.ja.projects.kuunyi = {
+    title: "KuuNyi - \u30de\u30eb\u30c1\u30c6\u30ca\u30f3\u30c8SaaS\u7533\u8fbc\u7ba1\u7406\u30d7\u30e9\u30c3\u30c8\u30d5\u30a9\u30fc\u30e0",
+    desc: "\u8a9e\u5b66\u5b66\u6821\u3001\u30a4\u30d9\u30f3\u30c8\u3001\u7814\u4fee\u30bb\u30f3\u30bf\u30fc\u5411\u3051\u306b\u3001\u30c6\u30ca\u30f3\u30c8\u3054\u3068\u306e\u72ec\u7acb\u30b5\u30d6\u30c9\u30e1\u30a4\u30f3\u3067\u7533\u8fbc\u3001\u6c7a\u6e08\u3001\u53d7\u8b1b\u8005\u9023\u7d61\u3092\u7ba1\u7406\u3059\u308b\u672c\u756a\u30ec\u30d9\u30eb\u306eSaaS\u30d7\u30e9\u30c3\u30c8\u30d5\u30a9\u30fc\u30e0\u3002",
+    isolation: {
+        title: "\u30de\u30eb\u30c1\u30c6\u30ca\u30f3\u30c8\u5206\u96e2",
+        desc: "\u30b5\u30d6\u30c9\u30e1\u30a4\u30f3\u30eb\u30fc\u30c6\u30a3\u30f3\u30b0\u3001PostgreSQL Row-Level Security\u3001Host\u30d8\u30c3\u30c0\u30fc\u304b\u3089\u306e\u30c6\u30ca\u30f3\u30c8\u30b3\u30f3\u30c6\u30ad\u30b9\u30c8\u4f1d\u64ad\u3092\u5b9f\u88c5\u3002"
+    },
+    payments: {
+        title: "3\u5c64\u6c7a\u6e08\u9023\u643a",
+        desc: "ABank MMQR\u3001MyanMyanPay\u3001Stripe\u3092\u9023\u643a\u3057\u3001HMAC\u691c\u8a3c\u4ed8\u304dWebhook\u3068\u7533\u8fbc\u30b9\u30c6\u30fc\u30bf\u30b9\u81ea\u52d5\u66f4\u65b0\u3092\u63d0\u4f9b\u3002"
+    },
+    automation: {
+        title: "\u30c1\u30e3\u30c3\u30c8\u30dc\u30c3\u30c8\u81ea\u52d5\u5316",
+        desc: "Telegram\u306e\u30c6\u30ca\u30f3\u30c8\u5225Webhook\u3001\u30a2\u30ab\u30a6\u30f3\u30c8\u9023\u643a\u3001\u30c1\u30e3\u30f3\u30cd\u30eb\u62db\u5f85\u3001\u4e00\u62ec\u901a\u77e5\u3001\u81ea\u52d5\u30ad\u30c3\u30af\u3001Messenger\u30cf\u30f3\u30c9\u30aa\u30d5\u3092\u5b9f\u88c5\u3002"
+    },
+    ai: {
+        title: "AI\u30aa\u30fc\u30b1\u30b9\u30c8\u30ec\u30fc\u30c8\u578b\u958b\u767a",
+        desc: "Claude Code\u3092\u6d3b\u7528\u3057\u300110+\u30b9\u30d7\u30ea\u30f3\u30c8\u3067\u30b9\u30ad\u30fc\u30de\u8a2d\u8a08\u3001API\u751f\u6210\u3001\u30c7\u30d0\u30c3\u30b0\u3001\u53cd\u5fa9\u7684\u30c7\u30ea\u30d0\u30ea\u30fc\u3092\u63a8\u9032\u3002"
+    },
+    tags: {
+        next: "Next.js 14",
+        supabase: "Supabase RLS",
+        payments: "Stripe / MMQR",
+        telegram: "Telegram Bot API",
+        vercel: "Vercel"
     },
     live: "\u30e9\u30a4\u30d6\u30b5\u30a4\u30c8"
 };
